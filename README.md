@@ -15,6 +15,7 @@ Task 2
 Task 3
 ------------------------------------------------------------------------------------------------
 
+
 ------------------------------------------------------------------------------------------------
 Instructions for task 4 & 5 to deploys dags:
 ------------------------------------------------------------------------------------------------
@@ -27,8 +28,12 @@ Please copy all the following contents of dags folder to <container_id>:/usr/loc
 ------------------------------------------------------------------------------------------------
 Task 4
 ------------------------------------------------------------------------------------------------
+In dags folder you could find a dag file named task_4_5_dag.py which on execution will pick up the
+SQL from dags/sql/task_4.sql and perform following tasks:
 
-
+1. Drop table TASK_3_DS if exists
+2. Execute the Select statement and generate dataset
+3. Create table TASK_3_DS using generated dataset
 
 ------------------------------------------------------------------------------------------------
 Task 5
@@ -46,6 +51,8 @@ This ways it would be more secure and one need not risk the security by sending 
 
 Steps to decrypt the encrypted email.
 
-1. Open the decryption_query.sql.
+1. Open the decryption_query.sql placed under pipeline_encryption_task folder
 2. Open the secret.key sent over another email.
 2. Replace the <private_key> place holder in sql with secret.key file contents and execute.
+
+Note: 
