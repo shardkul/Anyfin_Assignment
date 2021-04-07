@@ -3,18 +3,17 @@
 ------------------------------------------------------------------------------------------------
 Task 1
 ------------------------------------------------------------------------------------------------
-
+Added a pdf illustrating an ER diagram for the database schema provided under fundamentals_task folder
 
 ------------------------------------------------------------------------------------------------
 Task 2
 ------------------------------------------------------------------------------------------------
-
-
+All the queries for the problem statements mentioned in task 2 are added as separate sql files under basicQueries_task folder
 
 ------------------------------------------------------------------------------------------------
 Task 3
 ------------------------------------------------------------------------------------------------
-
+Dataset creation problem statement solution query is added the the sql file under datasets_task folder
 
 ------------------------------------------------------------------------------------------------
 Instructions for task 4 & 5 to deploys dags:
@@ -52,7 +51,5 @@ This ways it would be more secure and one need not risk the security by sending 
 Steps to decrypt the encrypted email.
 
 1. Open the decryption_query.sql placed under pipeline_encryption_task folder
-2. Open the secret.key sent over another email.
+2. Unzip the attached secret_key.zip and use the value under secret.key for decryption.
 2. Replace the <private_key> place holder in sql with secret.key file contents and execute.
-
-Note: 
