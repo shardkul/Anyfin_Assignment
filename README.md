@@ -51,5 +51,5 @@ This ways it would be more secure and one need not risk the security by sharing 
 Steps to decrypt the encrypted email.
 
 1. Open the decryption_query.sql placed under pipeline_encryption_task folder
-2. Unzip the attached secret_key.zip and use the value under secret.key for decryption.
+2. Unzip the attached secret.zip and use the value under secret.key for decryption.
 2. Replace the <private_key> place holder in sql with secret.key file contents and execute.
